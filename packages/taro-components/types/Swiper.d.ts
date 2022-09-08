@@ -118,6 +118,18 @@ interface SwiperProps extends StandardProps {
    * @supported alipay
    */
   disableTouch?: boolean
+
+  /** 是否启用缩放
+   * @default false
+   * @supported h5
+   */
+  zoom?: boolean
+
+  /** 是否开启全屏
+   * @default false
+   * @supported h5
+   */
+  full?: boolean
 }
 
 declare namespace SwiperProps {
